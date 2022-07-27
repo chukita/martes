@@ -1,0 +1,7 @@
+body{font-family: 'Montserrat', sans-serif;}
+li{float:left;width:100px;}
+.item_menu{color:red}
+#contenedor{background:#bbb;width:100%; float: left; padding-left: 20px;}
+.cuerpo{ width: 100%; float: left; background-color: #1abc9c; height: 600px;}
+.centrar{text-align: center;}
+.redondeado{border-radius: 200px;}
