@@ -1,4 +1,4 @@
-import { fichaPersona } from "./fichaPersona";
+import { fichaPersona } from "./fichaPersona.js";
 
 export class fichaPersonaMenor extends fichaPersona {
 
@@ -6,7 +6,7 @@ export class fichaPersonaMenor extends fichaPersona {
         private _ar:string;
 
         constructor(n:string,a:string,nr:string,ar:string){
-            super(n,a),
+            super(n,a);
             this._ar = ar;
             this._nr = nr;
 

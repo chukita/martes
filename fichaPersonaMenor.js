@@ -1,8 +1,8 @@
-import { fichaPersona } from "./fichaPersona";
+import { fichaPersona } from "./fichaPersona.js";
 export class fichaPersonaMenor extends fichaPersona {
     constructor(n, a, nr, ar) {
-        super(n, a),
-            this._ar = ar;
+        super(n, a);
+        this._ar = ar;
         this._nr = nr;
     }
     completaFicha() {

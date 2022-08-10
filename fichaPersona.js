@@ -33,5 +33,3 @@ export class fichaPersona {
         adom.value = this._a;
     }
 }
-var Persona = new fichaPersona("Britney", "Spears");
-Persona.completaFicha();
