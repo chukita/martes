@@ -1,37 +1,33 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <head>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="estilo.css">
-    <title>Ejemplo</title>
-    
-</head>
-<body>
-    <div id="contenedor">
-        <div style="float:left; width:60%"> 
-            <H1>TITULO</H1>
-        </div>
-        <div style="float:left; width:40%">
-            <ul style="list-style: none;" >
-                <li class="item_menu">
-                    <a href="otro.html">ITEM 1</a>
-                </li>
-                <li class="item_menu">ITEM 2</li>
-                <li class="item_menu">ITEM 3</li>
-            </ul>
-        </div>
-        
-        
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
 
+    
+
+ </head>   
+
+<body style="font-family: 'Montserrat', sans-serif;">
+
+<h2>Ficha Personal</h2>
+
+<form action="/action_page.php">
+    <label for="fname">Nombre:</label><br>
+    <input type="text" id="fname" name="fname" value=""><br>
+    <label for="lname">Apellido:</label><br>
+    <input type="text" id="lname" name="lname" value=""><br><br>
+
+    <div id="menor" style="display:none">
+    <label for="fname">Nombre Responsable:</label><br>
+    <input type="text" id="fnamer" name="fnamer" value=""><br>
+    <label for="lname">Apellido Responsable:</label><br>
+    <input type="text" id="lnamer" name="lnamer" value=""><br><br>
     </div>
-    <div class="cuerpo">
-        <p class="centrar">
-            <img src="images/aguila.jpg" class="redondeado">
-        </p>
-    </div>
+
+</form> 
+
 </body>
+<script type="module" src="fichaPersonaMenor.js"></script>
 </html>
